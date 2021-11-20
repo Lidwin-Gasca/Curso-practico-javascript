@@ -36,3 +36,16 @@ function areaCirculo(d){
 }
 console.groupEnd();
 
+//Interaccion con HTML
+function calcularPerimetroCuadrado(){
+    const input = document.getElementById("InputCuadrado");
+    const value = input.value;
+    const perimetro = perimetroCuadrado(value);
+    alert(perimetro);
+}
+function calcularAreaCuadrada(){
+    const input = document.getElementById("InputCuadrado");
+    const value = input.value;
+    const area = areaCuadrada(value);
+    alert(area);
+}

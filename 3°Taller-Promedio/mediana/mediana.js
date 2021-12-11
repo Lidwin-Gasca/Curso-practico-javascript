@@ -2,16 +2,27 @@ const lista1 = [
     100,
     200,
     500,
+    800,
     4000,
 ];
 
-const mitadLista1 = lista1.length / 2;
+const mitadLista1 = parseInt(lista1.length / 2);
 
-if (lista1 es par?) {
+function esPar(numerito){
+    if (numerito % 2 === 0){
+        return true
+    }
+    else {
+        return false
+    }
+}
+
+let mediana;
+
+if (esPar(lista1.length)) {
     // necesitamos dos elementos
     // -> el promedio
     // -> mediana 
 } else{
-    // posicion mittad dentro de lista1
-    // -> mediana
+    mediana = lista1[mitadLista1];
 }

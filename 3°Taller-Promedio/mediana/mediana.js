@@ -8,6 +8,29 @@ const lista1 = [
     4000,
 ];
 
+
+//LIDWIN, SI ESTAS VIENDO ESTO RESUELVELO, ES DECIR ADAPTA EL CODIGO COMENTADO DE ABAJO AL CODIGO DE ESTE ARCHIVO.
+
+// const listaCount = {};
+
+// lista1.map(
+//     function (elemento){
+//         if (listaCount[elemento]){
+//              listaCount[elemento] += 1; //ESTO ES LO MISMO QUE PONER 👉 listaCount[elemento] = listaCount[elemento] + 1;
+//         }
+//         else {
+//           listaCount[elemento] = 1;
+//         }
+//     }
+// );
+
+// const listaArray = Object.entries(listaCount).sort(
+//     function (elementoA, elementoB) {
+//         return elementoA[1] - elementoB[1];
+//     }
+// );
+
+
 const mitadLista1 = Math.floor((lista1.length / 2) - 1);
 const mitadListaElemento2 = Math.floor(lista1.length / 2);
 

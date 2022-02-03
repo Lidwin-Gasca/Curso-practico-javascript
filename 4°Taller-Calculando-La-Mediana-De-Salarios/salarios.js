@@ -11,7 +11,7 @@
 
 const colombia = [];
 
-colombia           .push({
+colombia.push({
     name: "Camila",
     salary: 500,
 });
